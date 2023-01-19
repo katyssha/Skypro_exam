@@ -1,0 +1,15 @@
+2023-01-19 12:33:16,255 : INFO : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-01-19 12:33:16,256 : INFO : [33mPress CTRL+C to quit[0m
+2023-01-19 12:33:29,613 : INFO : Главная страница запрошена
+2023-01-19 12:33:29,634 : INFO : 127.0.0.1 - - [19/Jan/2023 12:33:29] "GET / HTTP/1.1" 200 -
+2023-01-19 12:33:57,158 : INFO : Осуществляется поиск по слову
+2023-01-19 12:33:57,167 : INFO : 127.0.0.1 - - [19/Jan/2023 12:33:57] "GET /page1/Захарово HTTP/1.1" 200 -
+2023-01-19 12:55:48,916 : INFO : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-01-19 12:55:48,917 : INFO : [33mPress CTRL+C to quit[0m
+2023-01-19 12:56:01,101 : INFO : Главная страница запрошена
+2023-01-19 12:56:01,115 : INFO : 127.0.0.1 - - [19/Jan/2023 12:56:01] "GET / HTTP/1.1" 200 -
+2023-01-19 12:56:01,426 : INFO : 127.0.0.1 - - [19/Jan/2023 12:56:01] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-01-19 12:56:41,366 : INFO : Осуществляется поиск по слову
+2023-01-19 12:56:41,376 : INFO : 127.0.0.1 - - [19/Jan/2023 12:56:41] "GET /page1/Фрязево HTTP/1.1" 200 -
