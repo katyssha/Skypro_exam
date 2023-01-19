@@ -50,36 +50,33 @@
     </div>
 </nav>
 
-<p class="text-sm-start">Start aligned text on viewports sized SM (small) or wider.</p>
+<p class="text-sm-start">Train schedules</p>
 
 <table class="table">
     <thead>
     <tr>
-        <th scope="col">#</th>
-        <th scope="col">First</th>
-        <th scope="col">Last</th>
-        <th scope="col">Handle</th>
+        <th scope="col"></th>
+        <th scope="col">departure</th>
+        <th scope="col">arrival</th>
+        <th scope="col">station</th>
+        <th scope="col">days</th>
+        <th scope="col">halt</th>
+        <th scope="col">remark</th>
     </tr>
     </thead>
     <tbody>
+    {% for inf in schedule %}
     <tr>
-        <th scope="row">1</th>
-        <td>Mark</td>
-        <td>Otto</td>
-        <td>@mdo</td>
-    </tr>
-    <tr>
-        <th scope="row">2</th>
-        <td>Jacob</td>
-        <td>Thornton</td>
-        <td>@fat</td>
-    </tr>
-    <tr>
-        <th scope="row">3</th>
-        <td colspan="2">Larry the Bird</td>
-        <td>@twitter</td>
+        <th scope="row"></th>
+        <td>{{ inf.departure }}</td>
+        <td>{{ inf.arrival }}</td>
+        <td>{{ inf.station }}</td>
+        <td>{{ inf.days }}</td>
+        <td>{{ inf.halt }}</td>
+        <td>{{ inf.remark }}</td>
     </tr>
     </tbody>
+    {% endfor %}
 </table>
 
 
